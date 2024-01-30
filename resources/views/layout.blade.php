@@ -15,15 +15,15 @@
                 <li><a href="{{ route('home') }}" class="text-white hover:text-gray-200">Home</a></li>
                 <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
                 <li><a href="#" class="text-white hover:text-gray-200">Schedule</a></li>
-                <li><a href="{{ route('login.index') }}" class="text-white hover:text-gray-200">Login</a></li>
+                <li><a href="{{ route('register.create') }}" class="text-white hover:text-gray-200">Login</a></li>
             </ul>
         </div>
     </nav>
 
 
-    <div>
+    <main>
         @yield("content") 
-    </div>   
+    </main>   
 
         <!-- Footer -->
     <footer class="bg-blue-500 text-white py-8">
