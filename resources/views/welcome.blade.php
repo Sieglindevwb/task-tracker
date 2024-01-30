@@ -32,7 +32,7 @@
     <!-- Features Section -->
     <section id="features" class="py-16">
         <div class="container mx-auto text-center">
-            <h2 class="text-3xl font-bold mb-8">Short explanation:</h2>
+            <h2 class="text-3xl font-bold mb-8">Short explained:</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
