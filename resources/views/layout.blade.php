@@ -10,12 +10,12 @@
     <!-- Navbar -->
     <nav class="bg-blue-500 p-4">
         <div class="container mx-auto flex justify-between items-center">
-            <a href="#" class="text-white text-lg font-semibold">Planner Plan</a>
+            <a href="{{ route('home') }}" class="text-white text-lg font-semibold">Planner Plan</a>
             <ul class="flex space-x-4">
-                <li><a href="#" class="text-white hover:text-gray-200">Home</a></li>
+                <li><a href="{{ route('home') }}" class="text-white hover:text-gray-200">Home</a></li>
                 <li><a href="#" class="text-white hover:text-gray-200">About</a></li>
                 <li><a href="#" class="text-white hover:text-gray-200">Schedule</a></li>
-                <li><a href="#" class="text-white hover:text-gray-200">Login</a></li>
+                <li><a href="{{ route('login.index') }}" class="text-white hover:text-gray-200">Login</a></li>
             </ul>
         </div>
     </nav>
