@@ -14,8 +14,8 @@ return new class extends Migration
         Schema::create('tasks', function (Blueprint $table) {
             $table->id();
             $table->string('title');
-            $table->dateTime('start_time');
-            $table->dateTime('end_time');
+            $table->string('start_time', 5);
+            $table->string('end_time', 5);
             $table->timestamps();
         });
     }
