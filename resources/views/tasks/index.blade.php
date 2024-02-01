@@ -24,10 +24,19 @@ Schedule
             <h3 class="text-lg font-semibold text-gray-900 dark:text-white">
               <a href="#" class="hover:underline">{{ $task->title }}</a>
             </h3>
+             <a href="{{ route('tasks.edit', $task) }}" class="text-blue-500 hover:text-blue-700 mr-2">Edit</a>
+            <form action="{{ route('tasks.destroy', $task) }}" method="POST" class="inline">
+                @csrf
+                @method('DELETE')
+                <button type="submit" class="text-red-500 hover:text-red-700">Delete</button>
+            </form>
           </div>
           @endforeach
         </div>
       </div> 
+      <div class="mt-20 flex justify-center">
+    <a href="{{ route('tasks.create') }}" class="border border-transparent bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded">Create Task</a>
+</div>
 
     </div> 
   </section>
