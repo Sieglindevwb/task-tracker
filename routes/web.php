@@ -22,7 +22,10 @@ Route::get('/', [HomeController::class, 'index']) -> name('home');
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register.create');
 Route::post('/register', [RegisterController::class, 'store'])->middleware('guest')->name('register.store');
 
-Route::post('/logout', [LoginController::class, 'destroy'])->name('logout');
+Route::get('/login', [LoginController::class, 'create'])->middleware('guest')->name('sessions.create');
+Route::post('/login', [LoginController::class, 'create'])->middleware('guest')->name('sessions.create');
+
+Route::post('/logout', [LoginController::class, 'destroy'])->middleware('auth')->name('logout');
 
 Route::get('/tasks', [TaskController::class, 'index'])->name('tasks.index');
 Route::get('/tasks/create', [TaskController::class, 'create'])->name('tasks.create');
