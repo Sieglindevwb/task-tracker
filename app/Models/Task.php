@@ -13,6 +13,11 @@ class Task extends Model
         'title',
         'start_time',
         'end_time',
-        'content',
+        'user_id',
     ];
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
 }

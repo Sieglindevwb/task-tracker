@@ -10,9 +10,10 @@ class TaskController extends Controller
 {
     public function index()
     {
-        $tasks = Task::all();
+        $user = auth()->user();
+        $tasks = $user->tasks()->get();
 
-        return view('tasks.index', ['tasks' => $tasks]);
+        return view('tasks.index', compact('tasks'));
     }
 
     public function create()
@@ -31,7 +32,8 @@ class TaskController extends Controller
             'end_time.regex' => 'The end time must be in HH:MM format.',
         ]);
 
-        Task::create([
+        $user = auth()->user();
+        $user->tasks()->create([
             'title' => $request->title,
             'start_time' => $request->start_time,
             'end_time' => $request->end_time,
