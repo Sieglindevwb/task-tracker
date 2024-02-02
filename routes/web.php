@@ -18,8 +18,8 @@ use App\Http\Controllers\TaskController;
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
 
-Route::get('/register', [RegisterController::class, 'create'])->name('register.create');
-Route::post('/register', [RegisterController::class, 'store'])->name('register.store');
+Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register.create');
+Route::post('/register', [RegisterController::class, 'store'])->middleware('guest')->name('register.store');
 
 Route::get('/tasks', [TaskController::class, 'index'])->name('tasks.index');
 Route::get('/tasks/create', [TaskController::class, 'create'])->name('tasks.create');
