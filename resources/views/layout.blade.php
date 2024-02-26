@@ -16,7 +16,7 @@
   
   <div class="flex md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
     @auth
-        <span>Welkom, {{ auth()->user()->email}}</span>
+        <span>Welkom, {{ auth()->user()->name}}</span>
 
         <form action="/logout" method="POST">
             @csrf
