@@ -67,6 +67,7 @@ class TaskController extends Controller
             'end_time' => $request->end_time,
         ]);
 
+        $task->user_id = auth()->id();
         $task->save();
         
         return redirect()->route('tasks.index')->with('success', 'Task is updated');

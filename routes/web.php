@@ -23,7 +23,7 @@ Route::get('/register', [RegisterController::class, 'create'])->middleware('gues
 Route::post('/register', [RegisterController::class, 'store'])->middleware('guest')->name('register.store');
 
 Route::get('/login', [LoginController::class, 'create'])->middleware('guest')->name('sessions.create');
-Route::post('/login', [LoginController::class, 'create'])->middleware('guest')->name('sessions.create');
+Route::post('/login', [LoginController::class, 'store'])->middleware('guest')->name('sessions.store');
 
 Route::post('/logout', [LoginController::class, 'destroy'])->middleware('auth')->name('logout');
 
