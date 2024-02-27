@@ -10,7 +10,6 @@ Home
         <div class="container mx-auto text-center">
             <h1 class="text-4xl font-bold mb-4">Welcome to Planner Plan</h1>
             <p class="text-lg">Where you need to plan and get reminded of your bad planning habits. A powerful task scheduling application.</p>
-            <a href="#features" class="mt-8 inline-block bg-white text-blue-600 py-2 px-6 rounded-lg font-semibold shadow-md hover:bg-blue-100 transition duration-300">Learn More</a>
         </div>
     </section>
 
@@ -21,18 +20,18 @@ Home
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Feature 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold mb-4">Task Scheduling</h3>
-                    <p>Effortlessly schedule and manage your bad habits at specific times of the day.</p>
-                </div>
-                <!-- Feature 2 -->
-                <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-semibold mb-4">Login</h3>
                     <p>login and get your personal schedule.</p>
                 </div>
+                <!-- Feature 2 -->
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">Make a to do</h3>
+                    <p>Effortlessly schedule and manage your bad habits at specific times of the day.</p>
+                </div>
                 <!-- Feature 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
-                    <h3 class="text-xl font-semibold mb-4">Notifications</h3>
-                    <p>This is a maybe</p>
+                    <h3 class="text-xl font-semibold mb-4">Choose an hour</h3>
+                    <p>From this hour until this.</p>
                 </div>
             </div>
         </div>
