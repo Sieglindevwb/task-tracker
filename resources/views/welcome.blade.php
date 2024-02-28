@@ -7,7 +7,7 @@ Home
 @section('content')
     <!-- Hero Section -->
     <section class="bg-blue-600 text-white py-20 flex items-center">
-        <div class="container mx-auto text-center mt-16">
+        <div class="container mx-auto text-center">
             <h1 class="text-4xl font-bold mb-4">Welcome to Planner Plan</h1>
             <p class="text-lg">Where you need to plan and get reminded of your bad planning habits. A powerful task scheduling application.</p>
         </div>

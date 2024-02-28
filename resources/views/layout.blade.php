@@ -6,9 +6,9 @@
     <title>@yield('title', 'My Demo')</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
-<body class="bg-gray-100 font-sans">
+<body class="flex flex-col min-h-screen bg-gray-100 font-sans">
   <!-- Navbar -->
-<nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
+<nav class="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-600">
     <div class="max-w-screen-l flex flex-wrap items-center justify-between mx-auto p-4">
       <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
           <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Planner Plan</span>
@@ -48,15 +48,15 @@
 </nav>
 
 <!-- Main content -->
-        <main>
+        <main class="flex-grow">
             @yield("content") 
         </main>
 
 <!-- Footer -->
-<footer class="bg-blue-500 text-white py-8">
-    <div class="container mx-auto text-center">
-        <p>&copy; 2024 Planning Plan Planner by Siggy. All rights reserved.</p>
-    </div>
-</footer>
+    <footer class="bg-blue-500 text-white py-8">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Planning Plan Planner by Siggy. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
