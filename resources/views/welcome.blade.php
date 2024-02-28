@@ -21,7 +21,7 @@ Home
                 <!-- Feature 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-semibold mb-4">Login</h3>
-                    <p>login and get your personal schedule.</p>
+                    <p>Login and get your personal schedule.</p>
                 </div>
                 <!-- Feature 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
