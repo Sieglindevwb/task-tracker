@@ -35,6 +35,6 @@ class LoginController extends Controller
     {
         auth()->logout();
 
-        return redirect('/')->with('succes', 'Good');
+        return redirect('/')->with('success', 'Good');
     }
 }

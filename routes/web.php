@@ -18,6 +18,7 @@ use App\Http\Controllers\TaskController;
 */
 
 Route::get('/', [HomeController::class, 'index']) -> name('home');
+Route::get('/about', [HomeController::class, 'about']) -> name('about');
 
 Route::get('/register', [RegisterController::class, 'create'])->middleware('guest')->name('register.create');
 Route::post('/register', [RegisterController::class, 'store'])->middleware('guest')->name('register.store');
