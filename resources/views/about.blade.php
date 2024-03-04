@@ -9,10 +9,7 @@ About
     <section class="py-20 flex items-center">
         <div class="container mx-auto text-center px-20">
             <h1 class="text-4xl font-bold mb-8">About Planner Plan</h1>
-            <p class="text-lg text-gray-700 leading-relaxed mb-8">
-                Planner Plan is your ultimate tool for organizing your day effectively and staying on top of your tasks. 
-                Whether you're a busy professional, a student, or anyone looking to manage their time more efficiently, 
-                Planner Plan offers the features you need to streamline your schedule and boost productivity.
+            <p class="text-lg text-gray-700 leading-relaxed mb-8"> Planner Plan is your ultimate tool for organizing your day effectively and staying on top of your tasks. Whether you're a busy professional, a student, or anyone looking to manage their time more efficiently, Planner Plan offers the features you need to streamline your schedule and boost productivity.
             </p>
             <h2 class="text-2xl font-semibold mb-4">Our Mission</h2>
             <p class="text-lg text-gray-700 mb-4">
