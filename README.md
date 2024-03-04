@@ -1,6 +1,6 @@
 # Task Tracker
 
-Task Tracker is a web application designed to help users manage their daily tasks. Users can log in, view their schedule for the day, update tasks, and mark them as completed. The application allows users to register if they don't have an account yet, providing a personalized task management experience.
+Task Tracker is a web application designed to help users manage their daily tasks. Users can log in, view their schedule for the day, update tasks, and delete them as completed. The application allows users to register if they don't have an account yet, providing a personalized task management experience.
 
 ## Table of Contents
 
@@ -20,17 +20,45 @@ To get a copy of the project up and running on your local machine for developmen
 
 ## Installing
 
-1. Clone the repository to your local machine.
-2. Create a `.env` file based on the provided `.env.example` file.
-3. Configure the `.env` file to connect to your database.
-4. Install Composer dependencies by running `composer install`.
-5. Install npm dependencies by running `npm install`.
+1. **Clone the repository** to your local machine:
+
+    ```bash
+    git clone git@github.com:Sieglindevwb/task-tracker.git
+    ```
+
+2. **Create a `.env` file** based on the provided `.env.example` file:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+3. **Configure the `.env` file** to connect to your database and set other environment variables.
+
+4. **Install Composer dependencies** by running:
+
+    ```bash
+    composer install
+    ```
+
+5. **Install npm dependencies** by running:
+    ```bash
+    npm install
+    ```
 
 ## Usage
 
 To use Task Tracker in a development environment, follow these steps:
 
-1. Run database migrations and seeders to populate the database with default data:
+1. **Run database migrations and seeders** to populate the database with default data:
+
     ```bash
     php artisan migrate --seed
     ```
+
+2. **Start the development server** by running:
+
+    ```bash
+    php artisan serve
+    ```
+
+3. **Access the application** in your web browser and register/login to access your schedule.
