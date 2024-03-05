@@ -1,5 +1,3 @@
-
-
 <!-- Navbar -->
   <nav class="bg-white dark:bg-gray-900 border-b border-gray-200 dark:border-gray-600">
       <div class="max-w-screen-l flex flex-wrap items-center justify-between mx-auto p-4">

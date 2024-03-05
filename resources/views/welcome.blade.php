@@ -13,22 +13,22 @@ Home
         </div>
     </section>
 
-    <!-- Features Section -->
+    <!-- How-to Section -->
     <section id="features" class="py-16">
         <div class="container mx-auto text-center">
             <h2 class="text-3xl font-bold mb-8">How it works:</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-                <!-- Feature 1 -->
+                <!-- How-to 1 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-semibold mb-4">Login</h3>
                     <p>Login and get your personal schedule.</p>
                 </div>
-                <!-- Feature 2 -->
+                <!-- How-to 2 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-semibold mb-4">Make a to do</h3>
                     <p>Effortlessly schedule and manage your bad habits at specific times of the day.</p>
                 </div>
-                <!-- Feature 3 -->
+                <!-- How-to 3 -->
                 <div class="bg-white rounded-lg shadow-md p-6">
                     <h3 class="text-xl font-semibold mb-4">Choose an hour</h3>
                     <p>From this hour until this.</p>
