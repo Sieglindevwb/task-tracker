@@ -9,7 +9,7 @@
 <body class="flex flex-col min-h-screen bg-gray-100 font-sans">
   <!-- Navbar -->
   <div>
-    @include('partials.nav');
+    @include('partials.nav')
   </div>
 
   <!-- Main content -->
@@ -19,7 +19,7 @@
 
   <!-- Footer -->
   <div>
-    @include('partials.footer');
+    @include('partials.footer')
   </div>
 </body>
 </html>
